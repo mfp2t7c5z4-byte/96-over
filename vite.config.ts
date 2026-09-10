@@ -208,7 +208,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 export default defineConfig({
   // Relative asset paths allow the app to work at both the GitHub Pages
   // project URL (/repository-name/) and the local development URL (/).
-  base: "/96-over/",
+  base: "./",
   plugins,
   resolve: {
     alias: {
