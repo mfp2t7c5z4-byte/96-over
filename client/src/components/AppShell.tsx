@@ -41,7 +41,7 @@ export default function AppShell({
                 </button>
               )}
               {!showBack && (
-                <img src="/manus-storage/golf-logo_88993864.png" alt="Golf Tracker" className="w-7 h-7 object-contain" />
+                <img src="./assets/golf-logo.png" alt="Golf Tracker" className="w-7 h-7 object-contain" />
               )}
               {title === '96 Over' || title === 'Golf Tracker' ? (
                 <div className="flex flex-col leading-none">

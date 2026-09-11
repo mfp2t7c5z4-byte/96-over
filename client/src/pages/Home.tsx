@@ -92,7 +92,7 @@ export default function Home() {
       <div
         className="relative rounded-2xl overflow-hidden mb-5 h-40"
         style={{
-          backgroundImage: `url('/manus-storage/golf-hero-bg_eeee22f5.jpg')`,
+          backgroundImage: 'url(./assets/golf-hero-bg.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 40%',
         }}

@@ -1,10 +1,10 @@
 # GitHub Upload Restart Checklist
 
-- [ ] Audit the current project structure and deployment configuration.
-- [ ] Prepare a clean GitHub-ready ZIP containing the project root files.
-- [ ] Verify the ZIP contains the source, package files, README, license, and deployment workflow while excluding dependencies and generated artifacts.
-- [ ] Provide the user with the direct download and a clean upload procedure.
-- [ ] Explain the correct GitHub Pages deployment setup and base-path requirements.
+- [x] Audit the current project structure and deployment configuration.
+- [x] Prepare a clean GitHub-ready ZIP containing the project root files.
+- [x] Verify the ZIP contains the source, package files, README, license, and deployment workflow while excluding dependencies and generated artifacts.
+- [x] Provide the user with the direct download and a clean upload procedure.
+- [x] Explain the correct GitHub Pages deployment setup and base-path requirements.
 
 ## Notes
 
@@ -19,3 +19,11 @@ The user wants to restart the upload process after receiving a 404 from the prev
 The current GitHub upload package must be regenerated after the final project state is verified.
 
 The checklist will be marked complete only after the package is created and verified.
+
+## Image Asset Repair
+
+- [ ] Trace the icon and golf background references in the source code.
+- [ ] Confirm the required image files are present in a deployable project directory.
+- [ ] Update asset paths or copy assets into the correct public location.
+- [ ] Rebuild and verify that the generated site contains the image assets.
+- [ ] Provide terminal commands for committing and pushing the repair.
