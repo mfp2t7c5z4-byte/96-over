@@ -15,7 +15,7 @@ const navItems = [
 ];
 
 export default function BottomNav() {
-  const [location] = useLocation();
+  const [location, navigate] = useLocation();
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 bg-primary border-t border-primary/20 safe-area-pb">
@@ -25,11 +25,10 @@ export default function BottomNav() {
           return (
             <a
               key={path}
-              href={path}
+              href={`${import.meta.env.BASE_URL}${path === '/' ? '' : path.slice(1)}`}
               onClick={e => {
                 e.preventDefault();
-                window.history.pushState(null, '', path);
-                window.dispatchEvent(new PopStateEvent('popstate'));
+                navigate(path);
               }}
               className={`flex flex-col items-center justify-center flex-1 py-3 gap-1 transition-all duration-150 active:scale-95 ${
                 isActive

@@ -30,7 +30,14 @@ The checklist will be marked complete only after the package is created and veri
 
 ## GitHub Pages Base Route Repair
 
-- [ ] Confirm the repository name and current Vite base configuration.
-- [ ] Ensure direct navigation to the repository Pages URL resolves to the app entry point.
-- [ ] Preserve the asset fixes while updating the deployment package.
-- [ ] Build and verify the repaired package before redeployment.
+- [x] Confirm the repository name and current Vite base configuration.
+- [x] Ensure direct navigation to the repository Pages URL resolves to the app entry point.
+- [x] Preserve the asset fixes while updating the deployment package.
+- [x] Build and verify the repaired package before redeployment.
+
+## GitHub Pages Navigation Repair
+
+- [ ] Trace all navigation actions and links that use root-relative paths.
+- [ ] Make navigation aware of the `/96-over/` base path.
+- [ ] Build and verify the main tabs and round flows.
+- [ ] Package the final navigation fix for terminal redeployment.
