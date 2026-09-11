@@ -206,9 +206,8 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
-  // Relative asset paths allow the app to work at both the GitHub Pages
-  // project URL (/repository-name/) and the local development URL (/).
-  base: "./",
+  // GitHub Pages project URL for this repository.
+  base: "/96-over/",
   plugins,
   resolve: {
     alias: {

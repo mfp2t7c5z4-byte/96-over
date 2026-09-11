@@ -4,6 +4,7 @@
  */
 import { type ReactNode } from 'react';
 import BottomNav from './BottomNav';
+import logoImage from '@/assets/golf-logo.png';
 
 interface AppShellProps {
   children: ReactNode;
@@ -41,7 +42,7 @@ export default function AppShell({
                 </button>
               )}
               {!showBack && (
-                <img src="./assets/golf-logo.png" alt="Golf Tracker" className="w-7 h-7 object-contain" />
+                <img src={logoImage} alt="Golf Tracker" className="w-7 h-7 object-contain" />
               )}
               {title === '96 Over' || title === 'Golf Tracker' ? (
                 <div className="flex flex-col leading-none">

@@ -24,6 +24,7 @@ import {
 } from '@/lib/handicap';
 import StartRoundDialog from '@/components/StartRoundDialog';
 import LogPastRoundDialog from '@/components/LogPastRoundDialog';
+import heroImage from '@/assets/golf-hero-bg.jpg';
 
 export default function Home() {
   const [, navigate] = useLocation();
@@ -92,7 +93,7 @@ export default function Home() {
       <div
         className="relative rounded-2xl overflow-hidden mb-5 h-40"
         style={{
-          backgroundImage: 'url(./assets/golf-hero-bg.jpg)',
+          backgroundImage: `url(${heroImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center 40%',
         }}

@@ -22,8 +22,15 @@ The checklist will be marked complete only after the package is created and veri
 
 ## Image Asset Repair
 
-- [ ] Trace the icon and golf background references in the source code.
-- [ ] Confirm the required image files are present in a deployable project directory.
-- [ ] Update asset paths or copy assets into the correct public location.
-- [ ] Rebuild and verify that the generated site contains the image assets.
-- [ ] Provide terminal commands for committing and pushing the repair.
+- [x] Trace the icon and golf background references in the source code.
+- [x] Confirm the required image files are present in a deployable project directory.
+- [x] Update asset paths or copy assets into the correct public location.
+- [x] Rebuild and verify that the generated site contains the image assets.
+- [x] Provide terminal commands for committing and pushing the repair.
+
+## GitHub Pages Base Route Repair
+
+- [ ] Confirm the repository name and current Vite base configuration.
+- [ ] Ensure direct navigation to the repository Pages URL resolves to the app entry point.
+- [ ] Preserve the asset fixes while updating the deployment package.
+- [ ] Build and verify the repaired package before redeployment.
